@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 72px;
+    padding-right: 72px;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.body1 {
+    display: flex;
+    padding: 72px;
+}
+
+.body2 {
+    padding-top: 16px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+
+.data-card-set {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.data-card {
+    /* TODO: set to same width when scaling */
+}
